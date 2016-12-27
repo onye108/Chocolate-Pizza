@@ -4,7 +4,7 @@ html body{
   max-height:100%;
   max-width:100%;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-image: url("pics/local_texture__three_by_one_by_beyond_oddities.jpg");
   color: white;
   background-position: normal;
@@ -174,3 +174,41 @@ color: brown;font-family: 'Lobster', cursive;
         color: black;
       }
       .absolute-text a{font-size:16px; color:#b92b27;}
+    aside{
+      font: 12px 'Lobster', cursive;
+      text-align: center;
+        color: brown;
+        float: right;
+        width: 400px;
+        height: 500px;
+        background-color: oldlace;
+        margin-top: 300px;
+        border: 2pc solid brown;
+
+      }
+      #recipe{
+        /*position: relative;*/
+        width: 600px;
+        margin-left: 0px;
+        height: 500px;
+        width:960px;
+        color: oldlace;
+        margin-top: 50px;
+
+
+      }
+      #recipepaper{
+        margin-left: 30px;
+        width:480px;
+
+  }
+#recipeimg{
+    float:right;
+    border: 2px solid;
+    border-radius: 55px;
+  border-top: 0px;}
+#recipe ul{
+  margin-left:
+  padding-top: 50px;
+  text-overflow: ellipsis;
+}
